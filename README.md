@@ -22,6 +22,7 @@ This repository provides a full pipeline for pretraining a YOLO-compatible backb
 |-------|---------|------------------------------------------------------------------------|
 | 50    | ~3.94   | [Download](https://huggingface.co/your-model-path-or-gdrive-link)     |
 | 75    | ~3.92   | [Download](https://huggingface.co/your-model-path-or-gdrive-link)     |
+| 100   | ~3.91   | [Download](https://huggingface.co/your-model-path-or-gdrive-link)     |
 
 ---
 
@@ -59,7 +60,9 @@ This will train CSPDarknet using SimCLR and save weights at `ssl_cspdarknet_epoc
 
 | Model                   | Epoch | Link                                                                     |
 |------------------------|-------|--------------------------------------------------------------------------|
+| CSPDarknet (SimCLR)    | 50    | [ssl_cspdarknet_epoch50.pth](https://huggingface.co/your-model-link)     |
 | CSPDarknet (SimCLR)    | 75    | [ssl_cspdarknet_epoch75.pth](https://huggingface.co/your-model-link)     |
+| CSPDarknet (SimCLR)    | 100   | [ssl_cspdarknet_epoch100.pth](https://huggingface.co/your-model-link)    |
 
 ---
 
